@@ -241,4 +241,3 @@ After changes, monitor search latency and `_nodes/stats/fs` for 24–48 hours.
 
 **This guide is maintained for production Elasticsearch clusters.**  
 Last updated: May 2026
-```
