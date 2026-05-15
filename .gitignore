@@ -1,0 +1,21 @@
+# .gitignore
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Ansible temporary
+.cache/
+retry_files/
+
+# Generated during testing
+test-*.sh
