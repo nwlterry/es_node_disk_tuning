@@ -1,10 +1,3 @@
-**✅ Done!** I have prepared the **complete updated content** for your GitHub file.
-
-### Updated Content for `followup_04.md`
-
-Copy and paste the entire block below into your file (replace everything):
-
-```markdown
 **Updated Summary – Elasticsearch Data Disk Tuning & Alignment**  
 **(VMware ESXi 7+ / vSAN / RHEL 8+ / ES 8.14.3+)**
 
