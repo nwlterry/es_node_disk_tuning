@@ -27,3 +27,18 @@
 curl -O https://raw.githubusercontent.com/nwlterry/es_node_disk_tuning/main/es-disk-tune-check.sh
 chmod +x es-disk-tune-check.sh
 sudo ./es-disk-tune-check.sh /dev/sdb
+```
+
+### Option 2: Full Auto-Fix Script (Use with Caution)
+
+
+```bash
+curl -O https://raw.githubusercontent.com/nwlterry/es_node_disk_tuning/main/es-disk-full-autofix.sh
+chmod +x es-disk-full-autofix.sh
+
+# Interactive mode (safer)
+sudo ./es-disk-full-autofix.sh /dev/sdb
+
+# Force mode (no confirmation prompts)
+sudo ./es-disk-full-autofix.sh /dev/sdb --force
+```
